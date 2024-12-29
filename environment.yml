@@ -1,5 +1,0 @@
-name: jptlite-pyodide
-channels:
-- conda-forge
-dependencies:
-- jupyterlite-core
