@@ -1,0 +1,10 @@
+name: build and optionally deploy to github pages
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+jobs:   
+  build:
+    uses: workflows-and-actions/library/.github/workflows/build_deploy_gh.yml@main
