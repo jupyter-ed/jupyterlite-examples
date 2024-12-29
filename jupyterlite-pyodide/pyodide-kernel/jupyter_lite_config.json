@@ -1,5 +1,5 @@
 {
   "LiteBuildConfig": {
-    "apps": ["tree","repl"]
+    "apps": [ "tree","repl" ]
   }
 }
