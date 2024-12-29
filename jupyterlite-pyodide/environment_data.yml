@@ -1,0 +1,26 @@
+name: jptlite-pyodide
+channels:
+- conda-forge
+dependencies:
+- jupyterlite-core
+- jupyterlab
+- notebook
+- jupyterlite-pyodide-kernel
+- jupyterlite-javascript-kernel
+# interactivity
+- ipywidgets
+- ipyevents
+- ipycanvas
+- ipyleaflet
+# plotting
+- ipympl
+- matplotlib
+- plotly
+- bqplot
+# math/high school algebra
+- sympy
+# data analysis
+- pandas
+- numpy
+- pip:
+  - jupyterlite-xeus-sqlite
