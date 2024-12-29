@@ -2,6 +2,7 @@ name: jptlite-pyodide
 channels:
 - conda-forge
 dependencies:
+- jupyter_server
 - jupyterlite-core
 - jupyterlab
 - notebook
