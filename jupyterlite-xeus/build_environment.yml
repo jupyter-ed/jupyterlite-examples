@@ -2,8 +2,5 @@ name: xeus-build-env
 channels:
   - conda-forge
 dependencies:
-  - python
-  - pip
-  - jupyter_server
   - jupyterlite-core
   - jupyterlite-xeus
